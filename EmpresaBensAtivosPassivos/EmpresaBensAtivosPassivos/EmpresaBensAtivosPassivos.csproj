@@ -89,6 +89,10 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PatrimonioViewController.cs" />
+    <Compile Include="PatrimonioViewController.designer.cs">
+      <DependentUpon>PatrimonioViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ViewController.designer.cs">
