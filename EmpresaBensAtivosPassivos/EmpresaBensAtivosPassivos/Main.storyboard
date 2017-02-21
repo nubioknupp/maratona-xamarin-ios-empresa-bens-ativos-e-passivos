@@ -24,7 +24,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ativos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTf-y1-7L1">
                                 <rect key="frame" x="16" y="80" width="72" height="21"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="FM0-H5-JX8"/>
                                     <constraint firstAttribute="height" constant="21" id="GXs-qM-ZWM"/>
@@ -53,7 +53,7 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Passivos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdw-9e-oCg">
                                 <rect key="frame" x="16" y="237" width="102" height="21"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="9dh-Mh-iLQ"/>
                                     <constraint firstAttribute="height" constant="21" id="KkR-k4-Obz"/>
@@ -96,7 +96,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Bcq-xO-sJe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6RX-Rc-5wd"/>
                             <constraint firstItem="Ywa-9c-ITA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8m8-pJ-YRm"/>
@@ -151,14 +151,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor total do património da empresa" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k7J-xy-McP">
-                                <rect key="frame" x="16" y="186" width="343" height="30"/>
+                                <rect key="frame" x="16" y="230" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Património" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI5-8G-ABG">
-                                <rect key="frame" x="16" y="78" width="343" height="44"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="16" y="122" width="343" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="c56-n0-ZlT"/>
                                 </constraints>
@@ -167,7 +167,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.61176470588235299" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="sI5-8G-ABG" firstAttribute="top" secondItem="nNb-cD-I6n" secondAttribute="bottom" constant="58" id="43a-qT-8Tx"/>
                             <constraint firstItem="sI5-8G-ABG" firstAttribute="leading" secondItem="LXi-Tx-XdN" secondAttribute="leading" constant="16" id="7Jn-Sn-v6c"/>
@@ -190,10 +190,11 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dQj-6P-MhL" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NeN-UM-dXZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NeN-UM-dXZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.61176470588235299" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
