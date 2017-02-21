@@ -92,7 +92,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iTF-bh-qIW" kind="show" id="lVg-5D-9az"/>
+                                    <segue destination="iTF-bh-qIW" kind="show" identifier="PatrimonioSegueId" id="lVg-5D-9az"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -190,7 +190,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dQj-6P-MhL" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NeN-UM-dXZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NeN-UM-dXZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
